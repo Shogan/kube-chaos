@@ -18,11 +18,11 @@ The game logic is written in C# and is powered by the Unity engine.
 
 ### Source
 
-You can compile the source and build your own executable yourself. You'll need Unity version 2019.4 or later. When doing this you should be able to switch and build for multiple platforms. Linux and macOS builds should work fine in addition to Windows.
+You can compile the source and build your own executable yourself. You'll need [Unity](https://unity3d.com/get-unity/download) version 2019.4 or later. When doing this you should be able to switch and build for multiple platforms. Linux and macOS builds should work fine in addition to Windows.
 
 ### Release
 
-You can download a precompiled release from the Releases page. Unzip and run the executable to get started.
+You can download a pre-compiled release from the [Releases](https://github.com/Shogan/kube-chaos/releases) page. Unzip and run the executable to get started.
 
 ## Configuration
 
