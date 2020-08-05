@@ -32,16 +32,16 @@ To build from source, install Unity 2019.4 or later. The default installation wi
 * On first load, Unity will generate the library assets. Be patient as this can take a few minutes sometimes.
 * Go to **File -> Build Settings** (or CTRL/CMD-SHIFT-B). Make sure the settings and Scenes In Build look like the below:
 
-![](docs/build-settings.png)
+![](docs/build-settings.PNG)
 
 * Configure the **Target Platform** to the platform you want to build for. E.g. Windows / macOs / Linux.
 * Optionally configure Window resolution and other settings using the **Player Settings** button. The defaults should be fine though.
 * Click **Build** and choose a location for the output build. Once complete the executable to launch the game will be placed in this location.
 * The build will take a few moments to complete...
 
-![](docs/build-in-progress.png)
+![](docs/build-in-progress.PNG)
 
-![](docs/built-for-windows.png)
+![](docs/built-for-windows.PNG)
 
 * Open the executable to run the game.
 
