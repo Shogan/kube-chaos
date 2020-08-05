@@ -24,7 +24,28 @@ You can compile the source and build your own executable yourself. You'll need [
 
 You can download a pre-compiled release from the [Releases](https://github.com/Shogan/kube-chaos/releases) page. Unzip and run the executable to get started.
 
-## Configuration
+## Building
+
+To build from source, install Unity 2019.4 or later. The default installation will allow you to target PC, macOS or Linux Standalone.
+
+* Launch the Unity Editor or Unity Hub and load the project from the root folder level of this repository.
+* On first load, Unity will generate the library assets. Be patient as this can take a few minutes sometimes.
+* Go to **File -> Build Settings** (or CTRL/CMD-SHIFT-B). Make sure the settings and Scenes In Build look like the below:
+
+![](docs/build-settings.png)
+
+* Configure the **Target Platform** to the platform you want to build for. E.g. Windows / macOs / Linux.
+* Optionally configure Window resolution and other settings using the **Player Settings** button. The defaults should be fine though.
+* Click **Build** and choose a location for the output build. Once complete the executable to launch the game will be placed in this location.
+* The build will take a few moments to complete...
+
+![](docs/build-in-progress.png)
+
+![](docs/built-for-windows.png)
+
+* Open the executable to run the game.
+
+## Game Configuration
 
 The starting screen will allow you to enter your:
 
