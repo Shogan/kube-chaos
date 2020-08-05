@@ -22,7 +22,7 @@ You can compile the source and build your own executable yourself. You'll need [
 
 ### Release
 
-You can download a pre-compiled release from the [Releases](https://github.com/Shogan/kube-chaos/releases) page. Unzip and run the executable to get started.
+You can download a pre-compiled release (Windows/macOS) from the [Releases](https://github.com/Shogan/kube-chaos/releases) page. Unzip and run the executable to get started.
 
 ## Building
 
@@ -52,6 +52,8 @@ The starting screen will allow you to enter your:
 * **Kube context name**. Default `kubernetes-admin@kubernetes`.
 * **Namespace** to target (find and destroy pods). Default `demo`.
 * Name of your **kubectl** executable/binary. Default `kubectl`
+
+**Note for macOS**: Enter the full / absolute path to kubectl in the textbox in the main menu. Click Start. If your nodes don't appear in the spawn area, then quit the game (CMD + Q) and try again. There seems to be a time related bug around the game executing the kubectl process in the background on initial start (where `KubeManager.cs` should load the node info to begin with in a thread).
 
 ## Other
 
