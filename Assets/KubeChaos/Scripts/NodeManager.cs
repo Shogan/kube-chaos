@@ -14,7 +14,7 @@ public class NodeManager : MonoBehaviour
     public string nodeName;
     public List<string> pods = new List<string>();
     public List<string> podNamesInPlay = new List<string>();
-    public GameObject podPrefab;
+    public GameObject[] podPrefabs;
     public GameObject podCanvasPrefab;
     public float podSizeScale = 0.5f;
     public float spawnRadius = 5f;
@@ -51,7 +51,6 @@ public class NodeManager : MonoBehaviour
         var seed = SeedFromName(nodeName);
         rnd = new System.Random(seed);
         colorChoices = ColorExtensions.GetRandomPastelColors(50, seed);
-
 
         var intensityFactor1 = rnd.Next(4, 8) * 1.5f;
         var intensityFactor2 = rnd.Next(4, 8) * 1.5f;
@@ -133,7 +132,7 @@ public class NodeManager : MonoBehaviour
                     new Vector2(transform.position.x, transform.position.y) 
                         + UnityEngine.Random.insideUnitCircle * spawnRadius;
 
-                var podGo = (GameObject)Instantiate(podPrefab, spawnPosition, Quaternion.identity);
+                var podGo = (GameObject)Instantiate(podPrefabs[UnityEngine.Random.Range(0, podPrefabs.Length)], spawnPosition, Quaternion.identity);
 
                 podGo.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
                 podGo.transform.localRotation = Quaternion.Euler(new Vector3(0f, 0f, UnityEngine.Random.Range(-15f, 15f)));

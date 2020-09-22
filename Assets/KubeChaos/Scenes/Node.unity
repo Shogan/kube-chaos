@@ -6880,7 +6880,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beamPrefab: {fileID: 102326, guid: 97bc2b310ebf2e14ab94315b9e400af9, type: 3}
   numBeamInstancesToPool: 20
-  tagAsTurretBullets: 0
   pooledObjectFolderName: InitialPooledObjects
 --- !u!4 &384870659
 Transform:
@@ -11394,8 +11393,10 @@ MonoBehaviour:
   nodeName: 
   pods: []
   podNamesInPlay: []
-  podPrefab: {fileID: 6916289793968465597, guid: 20a34ee48bd7fe74ead681c7c7aa8875,
-    type: 3}
+  podPrefabs:
+  - {fileID: 6916289793968465597, guid: 20a34ee48bd7fe74ead681c7c7aa8875, type: 3}
+  - {fileID: 1879377011249346618, guid: bd28f2d6504f904498e3b069c99677a6, type: 3}
+  - {fileID: 8407986741554609626, guid: 8901ec761228b7b4385b1ca643132e19, type: 3}
   podCanvasPrefab: {fileID: 1798747012757197623, guid: 5f99df9faff3a5d47813672332a28743,
     type: 3}
   podSizeScale: 0.3
@@ -11404,7 +11405,6 @@ MonoBehaviour:
   gridColor1: {r: 0.38431373, g: 0.078431375, b: 0.7490196, a: 1}
   gridColor2: {r: 0.38431373, g: 0.078431375, b: 0.7490196, a: 1}
   currentPods: []
-  kubeNamespace: demo
 --- !u!4 &1210919836
 Transform:
   m_ObjectHideFlags: 0
