@@ -8,6 +8,8 @@ The game interfaces with your Kubernetes cluster and allows you to explore your 
 
 The game logic is written in C# and is powered by the Unity engine.
 
+[Read more about kube-chaos' beginnings here](https://www.shogan.co.uk/kubernetes/i-made-a-kubernetes-game-where-you-explore-your-cluster-and-destroy-pods/)
+
 ## Requirements
 
 * kubectl and a working kube context to your cluster. Kubectl must be in your system path too.
