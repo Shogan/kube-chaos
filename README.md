@@ -1,12 +1,8 @@
 # kube-chaos
 
-![](docs/kube-chaos-github.png)
+Kube Chaos is a twin-stick style shmup game in the style of chaos engineering. The game interfaces with your Kubernetes cluster and allows you to explore your cluster nodes and destroy live, running pods on those nodes. The game logic is written in C# and is powered by the Unity engine.
 
-Kube Chaos is a twin-stick style shmup game in the style of chaos engineering.
-
-The game interfaces with your Kubernetes cluster and allows you to explore your cluster nodes and destroy live, running pods on those nodes.
-
-The game logic is written in C# and is powered by the Unity engine.
+https://user-images.githubusercontent.com/814180/119267327-07a41c80-bbe6-11eb-87ec-25ee0f96e669.mp4
 
 [Read more about kube-chaos' beginnings here](https://www.shogan.co.uk/kubernetes/i-made-a-kubernetes-game-where-you-explore-your-cluster-and-destroy-pods/)
 
